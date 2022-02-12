@@ -29,6 +29,29 @@ html, body {
     color: #fab636;
 }
 
+.btn {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 10rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #6298df;
+    margin-top: 3rem;
+}
+
+#texto1 {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+#texto2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(25, 86, 177);
+}
+
 .gradiente {
     background: linear-gradient(45deg, #2e1308, #000000, #8f0d0d, #5e4517);
     background-size: 300% 300%;
