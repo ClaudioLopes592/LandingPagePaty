@@ -52,6 +52,44 @@ html, body {
     color: rgb(25, 86, 177);
 }
 
+#link2 .btn {
+    margin-top: 12rem;
+}
+
+#texto3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#texto4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+#texto5 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+@media (max-width: 896px) {
+    .btn {
+        font-size: 1rem;
+    }
+
+    #link1 .btn {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    #link2 .btn {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 .gradiente {
     background: linear-gradient(45deg, #2e1308, #000000, #8f0d0d, #5e4517);
     background-size: 300% 300%;
