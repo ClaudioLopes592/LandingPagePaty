@@ -40,6 +40,11 @@ html, body {
     margin-top: 3rem;
 }
 
+.btn:hover {
+    color: rgb(180, 179, 179);
+    background-color: #042858;
+}
+
 #texto1 {
     font-size: 1.5rem;
     padding-left: 2rem;
@@ -99,7 +104,7 @@ html, body {
 }
 
 #video .btn {
-    margin-left: 42%;
+    margin-left: 83%;
     margin-bottom: 1rem;
 }
 
