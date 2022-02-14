@@ -13,10 +13,6 @@ html, body {
     height: 170px;
 }
 
-.card-body {
-    padding-left: 40px;
-}
-
 .card-body i {
     margin-left: 40%;
 }
@@ -30,8 +26,8 @@ html, body {
 }
 
 .btn {
-    width: 15rem;
-    height: 5rem;
+    width: 18rem;
+    height: 7rem;
     border-radius: 10rem;
     font-size: 2rem;
     font-weight: 700;
@@ -104,12 +100,18 @@ html, body {
 }
 
 #video .btn {
-    margin-left: 41%;
+    margin-left: 40%;
     margin-bottom: 1rem;
 }
 
-@media (max-width: 896px) {
+@media (max-width: 1120px) {
+    .card-body p {
+        font-size: 1.2rem;
+    }
+
     .btn {
+        width: 14rem;
+        height: 5rem;
         font-size: 1rem;
     }
 
@@ -142,9 +144,46 @@ html, body {
     }
 }
 
+@media (max-width: 1016px) {
+    .card-body p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 886px) {
+    .card-body p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-body i {
+        margin-left: 47%;
+    }
+
+    .card-body p {
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 430px) {
+    .card-body i {
+        margin-left: 40%;
+    }
+
+    .card-body p {
+        padding-left: -5%;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        margin-left: 1rem;
+        width: 12rem;
+        height: 4rem;
+    }
+
     #video .btn {
-        margin-left: 10%;
+        margin-left: 25%;
     }
 }
 
